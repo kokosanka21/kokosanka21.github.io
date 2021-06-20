@@ -1,0 +1,652 @@
+* {
+    margin: 0;
+    font-family: Montserrat;
+}
+
+::-webkit-scrollbar {
+    width: 0;
+}
+
+.none {
+    display: none !important;
+}
+
+/* header */
+
+header {
+    background-image: url(./../img/header/bg.jpg);
+    background-size: cover;
+    height: 56.59vw;
+    margin-bottom: 6.94vw;
+}
+
+nav {
+    padding: 1vw 0;
+}
+
+nav > a {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 0.97vw;
+    line-height: 98.4%;
+    letter-spacing: -0.025em;
+    color: #000000;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-right: 5.5VW;
+}
+
+nav > a:first-child {
+    margin-left: 46.5vw;
+}
+
+nav > a:last-child {
+    margin-right: 0;
+}
+
+.main-hr {
+    border: 0.1vw solid rgba(0, 0, 0, 0.25);
+    background-color: rgba(0, 0, 0, 0.25);
+}
+
+.nav-hr {
+    border: 0.1vw solid #FFFFFF;
+    background-color: #fff;
+    width: 5.4vw;
+    position: relative;
+    top: -0.15vw;
+    left: 46.37vw;
+    margin-bottom: 13.88vw;
+}
+
+.header-blocks {
+    display: flex;
+    align-items: center;
+}
+
+.welcome-block {
+    margin-left: 7.63vw;
+    margin-right: 44.65vw;
+}
+
+.welcome-block > h1 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 5VW;
+    line-height: 5VW;
+    letter-spacing: -0.025em;
+    color: #FFFFFF;
+    margin-bottom: 1.04vw;
+}
+
+.welcome-block > p {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.66vw;
+    line-height: 98.4%;
+    letter-spacing: -0.025em;
+    color: #FFFFFF;
+    margin-bottom: 5.41vw;
+}
+
+.social-block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.social-block > img {
+    width: 2.22vw;
+    margin-bottom: 4.1vw;
+}
+
+.social-block > img:nth-child(2n) {
+    width: 1.25vw;
+}
+
+.social-block > img:last-child {
+    margin-bottom: 0;
+}
+
+/* /header */
+
+/* our-tours */
+
+.our-tours {
+    margin-bottom: 13.54vw;
+}
+
+.our-tours > p {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 2.5VW;
+    line-height: 98.4%;
+    letter-spacing: -0.025em;
+    color: #000000;
+    text-align: center;
+    margin-bottom: 2.08vw;
+}
+
+.cards-menu {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 4.51vw;
+}
+
+.cards-menu > a {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.6vw;
+    line-height: 98.4%;
+    letter-spacing: -0.025em;
+    color: #000000;
+    text-decoration: none;
+
+    margin-right: 6.59vw;
+}
+
+.cards-menu > a:first-child {
+    margin-right: 7.29vw;
+}
+
+.cards-menu > a:last-child {
+    margin: 0;
+}
+
+.card-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.card {
+    width: 25.34vw;
+    height: 31.94vw;
+    filter: drop-shadow(5px 5px 10px rgba(0, 0, 0, 0.25));
+    border-radius: 10px;
+    background-image: url(./../img/our_tours/bg/bg1.jpg);
+    background-size: cover;
+    margin-right: 4.86vw;
+}
+
+.card:nth-child(2n) {
+    background-image: url(./../img/our_tours/bg/bg2.jpg);
+}
+
+.card:last-child {
+    background-image: url(./../img/our_tours/bg/bg3.jpg);
+    margin: 0;
+}
+
+.stars {
+    margin-left: 2.08vw;
+}
+
+.stars > img {
+    margin-top: 2.08vw;
+    width: 1.38vw;
+    height: 1.3vw;
+    margin-right: 0.34vw;
+}
+
+.stars > img:last-child {
+    margin: 0;
+}
+
+.card-info {
+    margin-top: 19vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.top-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.top-info > img {
+    width: 0.83vw;
+    height: 0.83vw;
+}
+
+.top-info > p {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 0.90vw;
+    line-height: 98.4%;
+    letter-spacing: -0.025em;
+    color: #FFFFFF;
+}
+
+.top-info > img {
+    margin-right: 0.34vw;
+}
+
+.card-geo {
+    margin: 0 2.43vw;
+}
+
+.card-name {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.66vw;
+    line-height: 98.4%;
+    letter-spacing: -0.025em;
+    color: #FFFFFF;
+    text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25);
+    margin: 1.38vw auto;
+}
+
+.bottom-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.bottom-info > p {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 0.97vw;
+    line-height: 98.4%;
+    text-align: center;
+    letter-spacing: -0.025em;
+    color: #FFFFFF;
+
+    margin-right: 3.75vw;
+}
+
+.bottom-info > p:last-child {
+    margin: 0;
+}
+
+/* /our-tours */
+
+/* discount */
+
+.discount-header {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 2.81vw;
+    line-height: 98.4%;
+    letter-spacing: -0.025em;
+    color: #000000;
+    text-align: center;
+    margin-bottom: 3.51vw;
+}
+
+.discount {
+    height: 65.97vw;
+    background-image: url(./../img/discount/bg.jpg);
+    background-size: cover;
+    margin-bottom: 4.16vw;
+}
+
+.disct-rect {
+    width: 40.97vw;
+    height: 37.77vw;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+
+    position: relative;
+    top: 6.94vw;
+    left: 6.94vw;
+}
+
+.disct-rect > .stars {
+    margin: 3.47vw 0 2.43vw 2.08vw;
+}
+
+.disct-rect > .stars > img {
+    width: 1.94vw;
+    height: 1.8vw;
+}
+
+.disct-name {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 2.5vw;
+    line-height: 98.4%;
+    letter-spacing: -0.025em;
+    color: #FFFFFF;
+    margin-left: 2.08vw;
+    margin-bottom: 2.08vw;
+}
+
+.disct-price {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 2.5vw;
+    line-height: 98.4%;
+    letter-spacing: -0.025em;
+    color: #E8D903;
+    margin-left: 2.08vw;
+    margin-bottom: 1.38vw;
+}
+
+.disct-discription {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 0.97vw;
+    line-height: 98.4%;
+    letter-spacing: -0.025em;
+    color: #FFFFFF;
+    width: 35vw;
+
+    margin-left: 2.08vw;
+    margin-bottom: 2.08vw;
+}
+
+.disct-info {
+    margin-left: 2.08vw;
+    margin-bottom: 5.55vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.disct-info > p {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 0.97vw;
+    line-height: 98.4%;
+    text-align: center;
+    letter-spacing: -0.025em;
+    color: #FFFFFF;
+    margin-right: 3.47vw;
+}
+
+.disct-info > p:last-child {
+    margin: 0;
+}
+
+.disct-info > img {
+    margin-right: 0.34vw;
+    width: 0.83vw;
+    height: 0.83vw;
+}
+
+.disct-button {
+    margin: 0 auto;
+
+    width: 16.31vw;
+    height: 3.75vw;
+    background: linear-gradient(90deg, #FEB003 0%, #FEDC00 100%);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 1.78vw;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.disct-button > p {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.57vw;
+    line-height: 98.4%;
+    letter-spacing: -0.025em;
+    color: #FFFFFF;
+}
+/* /discount */
+
+/* our-team */
+
+.our-team-header {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 2.57vw;
+    line-height: 98.4%;
+    letter-spacing: -0.025em;
+    color: #000000;
+    text-align: center;
+    margin-bottom: 2.85vw;
+}
+
+.person-card {
+    filter: drop-shadow(10px 10px 20px rgba(0, 0, 0, 0.25));
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    margin-bottom: 12vw;
+}
+
+.person-card > img {
+    width: 42.5vw;
+    height: 51.42vw;
+}
+
+.person-card-description {
+    background-color: #0E0E0E;
+    width: 42.5vw;
+    height: 51.42vw;
+}
+
+.person-uppertitle {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 2vw;
+    line-height: 98.4%;
+    letter-spacing: -0.025em;
+    color: rgba(255, 255, 255, 0.6);
+
+    margin: 2.85vw 0 0.71vw 5.71vw;
+}
+
+.person-name {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 4.57vw;
+    line-height: 98.4%;
+    letter-spacing: -0.025em;
+    color: #FFFFFF;
+
+    margin: 0 0 6.42vw 5.71vw;
+}
+
+.person-subtitle {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 2vw;
+    line-height: 98.4%;
+    letter-spacing: -0.025em;
+    color: rgba(255, 255, 255, 0.6);
+
+    margin: 0 0 13.57vw 5.71vw;
+}
+
+.person-info {
+    display: flex;
+    justify-content: center;
+}
+
+.counter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    margin-right: 5.71vw;
+}
+
+.counter:last-child {
+    margin: 0;
+}
+
+.counter-circle {
+    background-image: url(./../img/our-team/counter-bg.png);
+    background-size: cover;
+    width: 5.71vw;
+    height: 5.71vw;
+    border-radius: 2.85vw;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-bottom: 0.71vw;
+}
+
+.counter-circle > p {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 4.28vw;
+    line-height: 98.4%;
+    text-align: center;
+    letter-spacing: -0.025em;
+    color: #FFFFFF;
+}
+
+.counter > p {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.25vw;
+    line-height: 98.4%;
+    letter-spacing: -0.025em;
+    color: #FFFFFF;
+
+    text-align: center;
+}
+/* /our-team */
+
+/* photos */
+
+/* .portfolio-header {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 2.57vw;
+    line-height: 98.4%;
+    letter-spacing: -0.025em;
+    color: #000000;
+    text-align: center;
+
+    margin-bottom: 3.57vw;
+}
+
+.photo-wrapper {
+    display: flex;
+}
+
+.horizontal-wrap {
+    display: flex;
+}
+
+.p-1st {
+    width: 59.35vw;
+    height: 41.71vw;
+}
+
+.p-2nd {
+    width: 59.35vw;
+    height: 28.42vw;
+}
+
+.p-3rd {
+    width: 20.1vw;
+    height: 20.14vw;
+}
+
+.p-4th {
+    width: 20.1vw;
+    height: 20.14vw;
+}
+
+.p-5th {
+    width: 40.24vw;
+    height: 20.14vw;
+}
+
+.p-6th {
+    width: 20.1vw;
+    height: 28.42vw;
+}
+
+.p-7th {
+    width: 20.1vw;
+    height: 28.42vw;
+} */
+/* /photos */
+
+/* feedback */
+
+.feedback {
+    background-image: url(./../img/feedback/bg.jpg);
+    background-size: cover;
+    height: 69vw;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.feedback > p {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 2.5vw;
+    line-height: 98.4%;
+    text-align: center;
+    letter-spacing: -0.025em;
+    color: #000000;
+
+    padding-top: 6.94vw;
+    margin-bottom: 11.45vw;
+}
+
+.form-rect {
+    background: rgba(162, 162, 162, 0.15);
+    border-radius: 10px;
+    width: 34.72vw;
+    height: 35.41vw;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input {
+    width: 24.30vw;
+    height: 3.47vw;
+
+    background: none;
+
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 5px;
+
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.42vw;
+    line-height: 98.4%;
+    letter-spacing: -0.025em;
+    color: #000;
+
+    margin-bottom: 2.08vw;
+}
+
+input:first-child {
+    margin-top: 3.47vw;
+}
+
+.message-input {
+    height: 12.15vw;
+}
+
+.buy-button {
+    width: 16.31vw;
+    height: 3.81vw;
+    background: linear-gradient(90deg, #FEB003 0%, #FEDC00 100%);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 25px;
+    border: none;
+
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.42vw;
+    line-height: 98.4%;
+    letter-spacing: -0.025em;
+    color: #fff;
+}
+/* /feedback */
