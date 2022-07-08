@@ -1,0 +1,206 @@
+* {
+    margin: 0;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+}
+
+header {
+    height: 66.71vw;
+    background-image: url(./../img/head_bg.jpg);
+    background-size: cover;
+    margin-bottom: 7.81vw;
+}
+
+.menu {
+    padding: 1.2vw 0;
+    margin-bottom: 14vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.5);;
+}
+
+.footer {
+    padding: 1.2vw 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background: #28B1D8;
+}
+
+.footer > p {
+    margin-right: 26.21vw;
+    font-size: 2.57vw;
+    line-height: 3.14vw; 
+    color: #FFFFFF;
+}
+
+
+nav {
+    display: flex;
+    flex-direction: row;
+}
+
+.menu > p {
+    margin-right: 26.21vw;
+    font-size: 2.57vw;
+    line-height: 3.14vw; 
+    color: #FFFFFF;
+}
+
+nav > a {
+    text-decoration: none;
+    font-size: 1.6vw;
+    line-height: 1.7vw;
+    color: #FFFFFF;
+    margin-right: 5.71vw;
+}
+
+nav > a:hover {
+    color: orange;
+}
+
+.slogan {
+    margin-left: 12.5vw;
+}
+
+.slogan > h1 {
+    font-size: 5vw;
+    line-height: 6.87vw;
+    color: #FFFFFF;
+    margin-bottom: 1.2vw;
+}
+
+.slogan > p {
+    width: 45.46vw;
+    font-size: 2.18vw;
+    line-height: 2.65vw;
+    color: #FFFFFF;
+}
+
+.about-header {
+    text-align: center;
+    font-size: 5vw;
+    line-height: 6.09vw;
+    color: #000000;
+    margin-bottom: 4.68vw;
+}
+
+.about-card-wrapper {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 6.94vw;
+}
+
+.about-card {
+    background-color: #fff;
+    width: 76.42vw;
+    height: 28vw;
+    margin-right: 3.21vw;
+    border-radius: 1.07vw;
+    filter: drop-shadow(5px 5px 15px rgba(0, 0, 0, 0.25));
+}
+
+.about-card-header {
+    margin: 2.14vw 0 1.42vw 0;
+    text-align: center;
+    font-size: 3.42vw;
+    line-height: 4.21vw;
+    color: #000000;
+}
+
+.about-card-text {
+    padding: 0 1.78vw;
+    font-size: 1.71vw;
+    line-height: 2.07vw;
+    text-align: center;
+    color: #000000;
+}
+
+.about-card:nth-child(3n) {
+    margin-right: 0;
+}
+
+.goods-header {
+    font-size: 4.44vw;
+    line-height: 5.41vw;
+    color: #000000;
+    text-align: center;
+    margin-bottom: 2.63vw;
+}
+
+.goods-cards-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.goods-card {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 3.47vw;
+}
+
+.goods-card:last-child {
+    margin-bottom: 6.94vw;
+}
+
+.goods-card > img {
+    width: 12vw;
+    margin-right: 9vw;
+}
+
+.goods-card-info {
+    padding: 1.38vw 3.54vw;
+    filter: drop-shadow(5px 5px 20px rgba(0, 0, 0, 0.25));
+    width: 50.9vw;
+    height: 10.54vw;
+    background: #28B1D8;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.goods-card-info-header {
+    font-size: 3.33vw;
+    line-height: 4.09vw;
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: .69vw;
+}
+
+.goods-card-info-text {
+    font-size: 1.66vw;
+    line-height: 2.01vw;
+    color: #FFFFFF;
+}
+
+.social > p {
+    font-size: 3.5vw;
+    line-height: 5.41vw;
+    color: #272727;
+    text-align: center;
+    margin-bottom: 2.63vw;
+}
+
+.social > p:nth-child(2n) {
+    font-size: 3.8vw;
+    color: #161616;
+}
+
+.social-header {
+    font-size: 4.44vw;
+    line-height: 5.41vw;
+    color: #000000;
+    text-align: center;
+    margin-bottom: 2.63vw;
+}
