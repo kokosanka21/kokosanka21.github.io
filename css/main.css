@@ -5,6 +5,10 @@
     font-weight: 400;
 }
 
+a {
+    text-decoration: none;
+}
+
 header {
     height: 66.71vw;
     background-image: url(./../img/head_bg.jpg);
