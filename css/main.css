@@ -22,6 +22,11 @@ header {
     background: rgba(0, 0, 0, 0.5);;
 }
 
+.menu > img {
+    width: 6vw;
+    margin-right: 1vw;
+}
+
 .footer {
     padding: 1.2vw 0;
     display: flex;
@@ -29,6 +34,11 @@ header {
     justify-content: center;
     align-items: center;
     background: #28B1D8;
+}
+
+.footer > img {
+    width: 6vw;
+    margin-right: 1vw;
 }
 
 .footer > p {
